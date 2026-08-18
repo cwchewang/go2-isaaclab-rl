@@ -12,8 +12,9 @@ license = { text = "BSD-3-Clause" }
 authors = [{ name = "Che Wang" }]
 
 [project.urls]
-Homepage = "https://github.com/kairoi-k/go2-mujoco-control"
-Release = "https://github.com/kairoi-k/go2-mujoco-control/releases/tag/v0.1.0"
+Homepage = "https://github.com/kairoi-k/go2-isaaclab-rl"
+Source = "https://github.com/kairoi-k/go2-isaaclab-rl"
+LegacyRelease = "https://github.com/kairoi-k/go2-mujoco-control/releases/tag/v0.1.0"
 
 [project.scripts]
 go2-fast-play = "go2_velocity_fast.play:main"

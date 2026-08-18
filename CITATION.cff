@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this Go2 Isaac Lab extension, cite this repository and the relevant upstream projects."
+title: "Go2 Isaac Lab velocity RL"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Che
+repository-code: "https://github.com/kairoi-k/go2-isaaclab-rl"
+license: BSD-3-Clause
