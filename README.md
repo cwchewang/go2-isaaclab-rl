@@ -52,9 +52,8 @@ python -m go2_velocity_fast.play --task Isaac-Velocity-Flat-Unitree-Go2-Fast35-v
 ~~~
 
 The recorded checkpoint has SHA-256
-c2009f890e5b575a8832021ab717dd2dcc23678a64f423d2f4e793d861ed4b42.
-It is currently served from the original research release while the asset is
-being migrated to this repository.
+c2009f890e5b575a8832021ab717dd2dcc23678a64f423d2f4e793d861ed4b42. It is
+published in this repository's [v0.1.0 release](https://github.com/kairoi-k/go2-isaaclab-rl/releases/tag/v0.1.0).
 
 ## Train
 

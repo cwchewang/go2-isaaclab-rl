@@ -7,5 +7,5 @@ Recorded stack for the velocity-curriculum runs, including `model_54950`:
 - physics backend: Newton / MuJoCo Warp
 - custom configs: `go2_velocity_fast.tasks.flat_fast*` (command curricula ±2.0 … ±3.5 m/s)
 - local RSL-RL NaN guards: PPO ratio clamp, `compute_returns` guard, loss skip; distribution sample guard
-- evaluated checkpoint: `model_54950.pt` (GitHub Release `v0.1.0`)
+- evaluated checkpoint: `model_54950.pt` (this repository's GitHub Release `v0.1.0`)
 - SHA-256: `c2009f890e5b575a8832021ab717dd2dcc23678a64f423d2f4e793d861ed4b42`

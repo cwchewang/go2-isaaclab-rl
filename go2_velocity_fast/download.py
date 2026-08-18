@@ -8,8 +8,8 @@ import sys
 import urllib.request
 from pathlib import Path
 
-LEGACY_RELEASE_URL = (
-    "https://github.com/kairoi-k/go2-mujoco-control/releases/download/v0.1.0/model_54950.pt"
+RELEASE_URL = (
+    "https://github.com/kairoi-k/go2-isaaclab-rl/releases/download/v0.1.0/model_54950.pt"
 )
 EXPECTED_SHA256 = "c2009f890e5b575a8832021ab717dd2dcc23678a64f423d2f4e793d861ed4b42"
 
@@ -20,8 +20,8 @@ def main() -> None:
     args = parser.parse_args()
     dest = args.output.expanduser()
     dest.parent.mkdir(parents=True, exist_ok=True)
-    print(f"downloading {LEGACY_RELEASE_URL}")
-    urllib.request.urlretrieve(LEGACY_RELEASE_URL, dest)
+    print(f"downloading {RELEASE_URL}")
+    urllib.request.urlretrieve(RELEASE_URL, dest)
     digest = hashlib.sha256(dest.read_bytes()).hexdigest()
     if digest != EXPECTED_SHA256:
         dest.unlink(missing_ok=True)
