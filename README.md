@@ -2,9 +2,9 @@
 
 Isaac Lab / RSL-RL velocity-tracking curricula for the Unitree Go2. This is
 the reinforcement-learning track, kept separate from the model-based MuJoCo
-controller in [go2-mujoco-control](https://github.com/kairoi-k/go2-mujoco-control)
+controller in [go2-mujoco-control](https://github.com/cwchewang/go2-mujoco-control)
 and the Kine2Go imitation work in
-[kine2go-research](https://github.com/kairoi-k/kine2go-research).
+[kine2go-research](https://github.com/cwchewang/kine2go-research).
 
 ![Isaac Lab 0.5 m/s](docs/media/rl_0.5ms.gif)
 ![Isaac Lab 3.5 m/s](docs/media/rl_3.5ms.gif)
@@ -25,7 +25,7 @@ errors, not measured body speed.
 Inside the Isaac Lab Python environment:
 
 ~~~
-git clone https://github.com/kairoi-k/go2-isaaclab-rl.git
+git clone https://github.com/cwchewang/go2-isaaclab-rl.git
 cd go2-isaaclab-rl
 pip install -e .
 export ISAACLAB_PATH=/path/to/IsaacLab
@@ -53,7 +53,7 @@ python -m go2_velocity_fast.play --task Isaac-Velocity-Flat-Unitree-Go2-Fast35-v
 
 The recorded checkpoint has SHA-256
 c2009f890e5b575a8832021ab717dd2dcc23678a64f423d2f4e793d861ed4b42. It is
-published in this repository's [v0.1.0 release](https://github.com/kairoi-k/go2-isaaclab-rl/releases/tag/v0.1.0).
+published in this repository's [v0.1.0 release](https://github.com/cwchewang/go2-isaaclab-rl/releases/tag/v0.1.0).
 
 ## Train
 
@@ -70,9 +70,9 @@ checkpoint are not vendored here.
 
 This repository owns only the Isaac Lab velocity-RL extension and its
 environment record. Model-based Go2 control is maintained separately in
-[go2-mujoco-control](https://github.com/kairoi-k/go2-mujoco-control); motion
+[go2-mujoco-control](https://github.com/cwchewang/go2-mujoco-control); motion
 imitation, AMP, and seam records are maintained in
-[kine2go-research](https://github.com/kairoi-k/kine2go-research).
+[kine2go-research](https://github.com/cwchewang/kine2go-research).
 
 ## License
 
